@@ -1,0 +1,53 @@
+body {
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top;
+}
+
+.container .card {
+  background-color: transparent;
+  min-height: 487px;
+}
+
+.card p {
+  color: white;
+}
+
+.card p {
+  color: white;
+}
+.card p b {
+  color: #269443;
+}
+
+.card span.card-title,
+.pagination {
+  color: yellow !important;
+}
+.container .card .card-reveal {
+  background-color: #000;
+}
+
+.card .collapsible * {
+  color: white;
+  background-color: #000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space */
+  background: transparent; /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+.pagination li.active {
+  background-color: yellow !important;
+}
+.pagination li.active a {
+  color: black !important;
+}
+
+.select-wrapper input.select-dropdown {
+  color: yellow !important;
+}
